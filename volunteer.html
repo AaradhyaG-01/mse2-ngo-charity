@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer | Helping Hands</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="top-bar">
+    <a class="logo" href="index.html">Helping <span>Hands</span></a>
+    <button class="menu-button" id="menuButton" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="causes.html">Our Causes</a>
+      <a href="donate.html">Donate</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-heading"><p class="small-heading">GIVE A LITTLE TIME</p><h1>Become a Volunteer</h1><p>You do not need special skills to start helping. A willing attitude is a good first step.</p></section>
+  <section class="form-section">
+    <div class="form-intro"><h2>Join our small team</h2><p>Volunteers can help with arranging supplies, community visits, teaching support or awareness activities.</p><img class="rounded-image" src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=800&q=80" alt="Volunteers working together"></div>
+    <form id="volunteerForm" class="simple-form">
+      <h2>Volunteer Form</h2>
+      <label for="volName">Full name</label><input id="volName" type="text" required placeholder="Your name">
+      <label for="volEmail">Email address</label><input id="volEmail" type="email" required placeholder="name@example.com">
+      <label for="volPhone">Phone number</label><input id="volPhone" type="tel" required pattern="[0-9 +()-]{8,15}" placeholder="Your phone number">
+      <label for="volInterest">Area you are interested in</label><select id="volInterest" required><option value="">Choose one</option><option>Teaching support</option><option>Food distribution</option><option>Health awareness</option><option>General help</option></select>
+      <label for="volMessage">A short message</label><textarea id="volMessage" rows="4" placeholder="Tell us a little about yourself"></textarea>
+      <button class="button" type="submit">Send Application</button>
+      <p id="volunteerMessage" class="form-message" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-content">
+    <div>
+      <h3>Helping Hands</h3>
+      <p>A small step from us can make a big difference for someone.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="about.html">About us</a> · <a href="causes.html">Causes</a> · <a href="contact.html">Contact</a></p>
+    </div>
+    <div>
+      <h3>Get in touch</h3>
+      <p>hello@helpinghands.example<br>+91 98765 43210</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Helping Hands. Student practical project.</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

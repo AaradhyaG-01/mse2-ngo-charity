@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate | Helping Hands</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="top-bar">
+    <a class="logo" href="index.html">Helping <span>Hands</span></a>
+    <button class="menu-button" id="menuButton" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="causes.html">Our Causes</a>
+      <a href="donate.html">Donate</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-heading"><p class="small-heading">YOUR SUPPORT MATTERS</p><h1>Make a Donation</h1><p>Choose an amount you are comfortable with. Every bit of support counts.</p></section>
+  <section class="form-section">
+    <div class="form-intro"><h2>Help us do a little more</h2><p>Your support can help provide learning materials, food packages and basic community support.</p><div class="notice"><strong>Project note:</strong> This is a frontend demonstration. It does not collect money or process real payments. The form only saves a sample entry in your browser.</div></div>
+    <form id="donationForm" class="simple-form">
+      <h2>Donation Details</h2>
+      <label for="donorName">Your name</label><input type="text" id="donorName" required placeholder="Enter your name">
+      <label for="donorEmail">Email address</label><input type="email" id="donorEmail" required placeholder="name@example.com">
+      <label for="donationAmount">Choose amount (₹)</label>
+      <select id="donationAmount" required><option value="">Select amount</option><option value="100">₹100</option><option value="250">₹250</option><option value="500">₹500</option><option value="1000">₹1,000</option><option value="other">Other amount</option></select>
+      <label for="customAmount">Other amount (₹), if selected</label><input type="number" id="customAmount" min="1" placeholder="Enter amount">
+      <button class="button" type="submit">Save Donation Entry</button>
+      <p id="donationMessage" class="form-message" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-content">
+    <div>
+      <h3>Helping Hands</h3>
+      <p>A small step from us can make a big difference for someone.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="about.html">About us</a> · <a href="causes.html">Causes</a> · <a href="contact.html">Contact</a></p>
+    </div>
+    <div>
+      <h3>Get in touch</h3>
+      <p>hello@helpinghands.example<br>+91 98765 43210</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Helping Hands. Student practical project.</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
